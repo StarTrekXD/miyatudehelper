@@ -1,7 +1,8 @@
 # MiyaTude
 MiyaTude Kısayol Fonksiyonlar
 
-````<script src="https://raw.githubusercontent.com/StarTrekXD/miyatudehelper/main/miyahelper.js"></script>```
+```
+<script src="https://raw.githubusercontent.com/StarTrekXD/miyatudehelper/main/miyahelper.js"></script>```
 
 ```js
 Link açar => linkaç('Link')
