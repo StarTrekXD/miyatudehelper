@@ -42,10 +42,10 @@ Pembe yazi rengi     => .pink
 # Style İşlemleri
 
 ```css
-Altçizgi atar => .altçizgi
-Bulanıklık efekti yapar => .bulanik
+Altcizgi atar => .altcizgi
+Bulaniklik efekti yapar => .bulanik
 Standart kodlu buton => .btnonly
-Rengarenk yazı yapar => #rengarenk
+Rengarenk yazi yapar => #rengarenk
 ```
 
 # Meraklısı için notlar 
