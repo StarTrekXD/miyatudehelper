@@ -12,7 +12,8 @@ Değer bulur => value('id','value/text') // Default:Value \\ Text, innerHTML çe
 Ayarlama yapar => ayarla('id','metin','value/text') // Default:Text \\ Text, innerHTML değiştirir. Value, değer değiştir.
 Cift verileri ayırır => ayristir('ayristirilacak') // { miya: değer1, tude: değer2 }
 Metni tekrarlar => tekraret('metin','tekrarmiktarı')
-Soru Sorar => alertque('soru') // Çıktı olarak verdiğimiz cevabı verir.
+Soru Sorar => alertque('soru') // Çıktı olarak verdiğimiz cevabı verir
+Input'larda sadece harf girisine izin verir => .number // Kopyala / Yapıştır engellemez
 ```
 
 # Bulanıklık İşlemleri
