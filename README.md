@@ -54,7 +54,5 @@ Rengarenk yazı yapar => #rengarenk
 Rengarenk arkaplan keyframe => colums
 Rengarenk yazı keyframe     => colors
 
-Body için otomatik eklenen stil kodları => font-family:Arial ve background-size:cover
-
-
+Body icin otomatik eklenen stil kodlari => font-family:Arial ve background-size:cover
 ```
