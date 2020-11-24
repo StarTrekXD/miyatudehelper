@@ -14,7 +14,7 @@ Soru Sorar => alertque('soru') // Çıktı olarak verdiğimiz cevabı verir.
 # Bulanıklık İşlemleri
 
 ```js
-Bulanıklık açar => bulaniklikac()
+Bulanıklık açar  => bulaniklikac()
 Bulanıklık kapar => bulaniklikkapat()
 ```
 
@@ -22,7 +22,7 @@ Bulanıklık kapar => bulaniklikkapat()
 
 ```js
 Açıkları ve işaretleri kaldırır => textscan('Metin')
-Sadece işaretleri kaldırır => whitelist('metin')
+Sadece işaretleri kaldırır      => whitelist('metin')
 Türkçe karakterleri ingilizce karakterlere çevirir => trkarakter('metin')
 ```
 
@@ -31,11 +31,30 @@ Türkçe karakterleri ingilizce karakterlere çevirir => trkarakter('metin')
 ```css
 Turuncu yazi rengi   => .orange
 Kirmizi yazi rengi   => .red
-Mavi yazi rengi      => . blue
+Mavi yazi rengi      => .blue
 Mor yazi rengi       => .purple
 Sari yazi rengi      => .yellow
 Koyu sari yazi rengi => .darkyellow
 Yesil yazi rengi     => .green
 Pembe yazi rengi     => .pink
+```
+
+# Style İşlemleri
+
+```css
+Altçizgi atar => .altçizgi
+Bulanıklık efekti yapar => .bulanik
+Standart kodlu buton => .btnonly
+Rengarenk yazı yapar => #rengarenk
+```
+
+# Meraklısı için notlar 
+
+```css
+Rengarenk arkaplan keyframe => colums
+Rengarenk yazı keyframe     => colors
+
+Body için otomatik eklenen stil kodları => font-family:Arial ve background-size:cover
+
 
 ```
