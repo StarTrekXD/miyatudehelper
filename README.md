@@ -25,3 +25,17 @@ Açıkları ve işaretleri kaldırır => textscan('Metin')
 Sadece işaretleri kaldırır => whitelist('metin')
 Türkçe karakterleri ingilizce karakterlere çevirir => trkarakter('metin')
 ```
+
+# Renk İşlemleri 
+
+```css
+Turuncu yazi rengi   => .orange
+Kirmizi yazi rengi   => .red
+Mavi yazi rengi      => . blue
+Mor yazi rengi       => .purple
+Sari yazi rengi      => .yellow
+Koyu sari yazi rengi => .darkyellow
+Yesil yazi rengi     => .green
+Pembe yazi rengi     => .pink
+
+```
