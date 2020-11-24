@@ -1,6 +1,8 @@
 # MiyaTude
 MiyaTude Kısayol Fonksiyonlar
 
+````<script src="https://raw.githubusercontent.com/StarTrekXD/miyatudehelper/main/miyahelper.js"></script>```
+
 ```js
 Link açar => linkaç('Link')
 Kopyalar  => kopyala('Metin')
