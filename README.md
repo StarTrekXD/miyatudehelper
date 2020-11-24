@@ -13,7 +13,7 @@ Ayarlama yapar => ayarla('id','metin','value/text') // Default:Text \\ Text, inn
 Cift verileri ayırır => ayristir('ayristirilacak') // { miya: değer1, tude: değer2 }
 Metni tekrarlar => tekraret('metin','tekrarmiktarı')
 Soru Sorar => alertque('soru') // Çıktı olarak verdiğimiz cevabı verir
-Input'larda sadece harf girisine izin verir => .number // Kopyala / Yapıştır engellemez
+Inputlarda sadece harf girisine izin verir => .number // Kopyala / Yapıştır engellemez
 ```
 
 # Bulanıklık İşlemleri
