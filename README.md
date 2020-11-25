@@ -57,7 +57,7 @@ Rengarenk yazi yapar    => #rengarenk
 Input modern stil yapar => .input
 Kalin yazi yapar        => .bold
 Sayfayi bolme cizgisi   => .cizgi
-Koseleri düzenler       => .koseli1-5
+Koseleri duzenler       => .koseli1-5
 ```
 
 # Meraklısı için notlar 
