@@ -42,6 +42,9 @@ Sari yazi rengi      => .yellow
 Koyu sari yazi rengi => .darkyellow
 Yesil yazi rengi     => .green
 Pembe yazi rengi     => .pink
+Beyaz yazi rengi     => .white
+
+/* Renklerin başlarına 'bg' eklenirse arkaplan rengine dönüşür */
 ```
 
 # Style İşlemleri
