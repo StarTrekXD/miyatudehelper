@@ -12,7 +12,7 @@ function tekraret(txt,ab){var a;let ttt='';for(a=0;a<ab;a++){ttt+=txt;if(a==ab-1
 function alertque(t){if(t==undefined||t==null){console.log("Soru Girilmedi")}else{var person=prompt(t);if(person!=null||person!=undefined){return person}else{return ''}}};
 
 function cssappender(n){if(document.head){document.head.appendChild(n)}else{if(document.body){document.body.appendChild(n)}else{alert("Please create head or body element.")}}}
-document.getElementById('number').onkeypress=function(e){return e.keyCode>=48&&e.keyCode<=57};document.getElementById("number").autocomplete='off';
+if(document.getElementById('number')){document.getElementById('number').onkeypress=function(e){return e.keyCode>=48&&e.keyCode<=57};document.getElementById("number").autocomplete='off';}
 
 ["orange","red","cyan","purple","yellow","darkyellow","green","blue","pink"].forEach(ua=>{let ren=ua=="orange"?'#ec7e13':ua=="red"?"red":ua=="blue"?'#5353ff':ua=="green"?'#2ab40f':ua=="purple"?'blueviolet':ua=="yellow"?'#e1a419':ua=="cyan"?'#2ab4b4':ua=="pink"?'mediumvioletred':ua=="darkyellow"?'#8f7a03':'#fff';for(var i=0,len=document.getElementsByClassName(ua).length|0;i<len;i=i+1|0){document.getElementsByClassName(ua)[i].style.color=ren;}});
 ["bgorange","bgred","bgcyan","bgpurple","bgyellow","bgdarkyellow","bggreen","bgblue","bgpink"].forEach(ua=>{let ren=ua=="bgorange"?'#ec7e13':ua=="bgred"?"red":ua=="bgblue"?'#5353ff':ua=="bggreen"?'#2ab40f':ua=="bgpurple"?'blueviolet':ua=="bgyellow"?'#e1a419':ua=="bgcyan"?'#2ab4b4':ua=="bgpink"?'mediumvioletred':ua=="darkyellow"?'#8f7a03':'#fff';for(var i=0,len=document.getElementsByClassName(ua).length|0;i<len;i=i+1|0){document.getElementsByClassName(ua)[i].style.backgroundColor=ren;}});
