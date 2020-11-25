@@ -51,6 +51,7 @@ Altcizgi atar           => .altcizgi
 Bulaniklik efekti yapar => .bulanik
 Standart kodlu buton    => .btnonly
 Rengarenk yazi yapar    => #rengarenk
+Input modern stil yapar => .input
 ```
 
 # Meraklısı için notlar 
