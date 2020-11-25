@@ -50,14 +50,14 @@ Beyaz yazi rengi     => .white
 # Style İşlemleri
 
 ```css
-Yazıya Altcizgi ekler   => .altcizgi
+Yaziya Altcizgi ekler   => .altcizgi
 Bulaniklik efekti yapar => .bulanik
 Standart kodlu buton    => .btnonly
 Rengarenk yazi yapar    => #rengarenk
 Input modern stil yapar => .input
 Kalin yazi yapar        => .bold
-Sayfayi bölme cizgisi   => .cizgi
-Köseleri düzenler       => .köseli1-5
+Sayfayi bolme cizgisi   => .cizgi
+Koseleri düzenler       => .koseli1-5
 ```
 
 # Meraklısı için notlar 
