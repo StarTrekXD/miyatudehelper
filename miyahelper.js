@@ -2,7 +2,7 @@
 function textscan(e){let temiz=e.replace(/<link/g,'😊').replace(/</g,'').replace(/>/g,'');for(var i='0';temiz.toLowerCase().includes('script');i++){temiz=temiz.replace(/script/g,'')}return whitelist(temiz)};
 function whitelist(e){var str=e.toString();var Cevap=e.toString();var Uygun=true;const liste=['q','w','e','r','t','y','u','ı','o','p','ğ','ü','i','ş','l','k','j','h','g','f','d','s','a','z','x','c','v','b','n','m','ö','ç','.',',','1','2','3','4','5','6','7','8','9','0','*','-','_','!',"'",'^','+','%','&','/','(',')','=','?','}',']','[','{','½','#','£','>','<','$','❤️'];var teyit=false;for(var i=0;i<str.length;i++){for(var x=0;x<liste.length;x++){if(str[i].toLowerCase()==liste[x].toString()||str[i]=='İ'){teyit=true;break}}if(teyit==false){Cevap=Cevap.replace(str[i],'')}teyit=false}return Cevap};
 function trkarakter(e){return e.replace(/Ö/g,'O').replace(/Ü/g,'U').replace(/Ğ/g,'G').replace(/İ/g,'I').replace(/ı/g,'i')};
-
+console.log('[MiyaHelper] MiyaHelper aktif')
 function linkaç(e){window.open(e)};
 function kopyala(e) {var dummy = document.createElement('input');document.body.appendChild(dummy);dummy.value = e;dummy.select();var success = document.execCommand('copy');document.body.removeChild(dummy);return success;}  
 function value(n,a){if(a.toLowerCase()=="value"||a==undefined||a==null){return document.getElementById(n).value}else{if(a.toLowerCase()=="text"){return document.getElementById(n).innerHTML||document.getElementById(n).innerText}else{return console.log("Kategori -Value,Text- Seçiniz!")}}};
