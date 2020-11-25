@@ -2,7 +2,7 @@
 MiyaTude Kısayol Fonksiyonlar
 
 ```html
-<script src="https://raw.githubusercontent.com/StarTrekXD/miyatudehelper/main/miyahelper.js"></script>
+<script src="https://raw.githack.com/StarTrekXD/miyatudehelper/main/miyahelper.js"></script>
 ```
 
 ```js
