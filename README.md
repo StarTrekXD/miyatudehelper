@@ -64,7 +64,7 @@ Koseleri duzenler       => .koseli1-5
 
 ```css
 Rengarenk arkaplan keyframe => colums
-Rengarenk yazı keyframe     => colors
+Rengarenk yazi keyframe     => colors
 
 Body icin otomatik eklenen stil kodlari => font-family:Arial ve background-size:cover
 ```
