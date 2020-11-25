@@ -55,9 +55,9 @@ Bulaniklik efekti yapar => .bulanik
 Standart kodlu buton    => .btnonly
 Rengarenk yazi yapar    => #rengarenk
 Input modern stil yapar => .input
-Kalın yazı yapar        => .bold
-Sayfayı bölme çizgisi   => .cizgi
-Köşeleri düzenler       => .köseli1-5
+Kalin yazi yapar        => .bold
+Sayfayi bölme cizgisi   => .cizgi
+Köseleri düzenler       => .köseli1-5
 ```
 
 # Meraklısı için notlar 
