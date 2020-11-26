@@ -10,6 +10,8 @@ function ayarla(n,t,a){if(a.toLowerCase()=="text"||a==undefined||a==null){docume
 function ayristir(t){var d=t.split('miyatudeayristirici');let d1=d[0];d.splice(d.indexOf(d1),1);let d2=d.join('');return {miya:d1,tude:d2};};
 function tekraret(txt,ab){var a;let ttt='';for(a=0;a<ab;a++){ttt+=txt;if(a==ab-1){return ttt}}};
 function alertque(t){if(t==undefined||t==null){console.log("Soru Girilmedi")}else{var person=prompt(t);if(person!=null||person!=undefined){return person}else{return ''}}};
+function attr(a,d,b){if(d=="src"){document.getElementById(a).src=b}else{document.getElementById(a).setAttribute(d,b)}}
+function gizle(gizlenecek,girishiz,bekleme){if(gizlenecek!=undefined||gizlenecek!=null){var a=document.getElementById(gizlenecek).style;let girlan;let girisyap;let sp;if(girishiz!=undefined||girishiz!=null){sp=girishiz.toString();if(sp[sp.length-2]+sp[sp.length-1]=='ms'){girisyap=sp;girlan=girishiz.split('').reverse('').splice(2).reverse('').join('')}else{girisyap=sp+'ms';girlan=sp}}else{girisyap='450ms';girlan=450}a.transition=girisyap;a.opacity='1';setTimeout(function(){a.opacity='0';setTimeout(function(){a.display='none'},girlan)},bekleme||1);sp;girisyap;a}}
 
 function cssappender(n){if(document.head){document.head.appendChild(n)}else{if(document.body){document.body.appendChild(n)}else{alert("Please create head or body element.")}}}
 if(document.getElementById('number')){document.getElementById('number').onkeypress=function(e){return e.keyCode>=48&&e.keyCode<=57};document.getElementById("number").autocomplete='off';}
