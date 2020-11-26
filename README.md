@@ -16,7 +16,8 @@ Soru Sorar => alertque('soru') // Çıktı olarak verdiğimiz cevabı verir
 Inputlarda sadece harf girisine izin verir => .number // Kopyala / Yapıştır engellemez
 Idsi verilen objeyi yavasca gösterir => göster('id','göstermesüresi',1000) // Id dışındkiler mecburi değil. Gösterme süresi girilmezse 450 varsayılır. 1000 değeri gecikmedir.
 Idsi verilen objeyi yavasca gizler => gizle('id','göstermesüresi',1000) // Id dışındkiler mecburi değil. Gösterme süresi girilmezse 450 varsayılır. 1000 değeri gecikmedir.
-Idsi verilen objenin özelliklerini düzenler => attr('id', 'özellik', 'yenideger')
+Idsi verilen objenin özelliklerini düzenler => attr('id', 'özellik', 'yenideger') 
+Linkteki verileri çeker => linkdata('dataname') // Çıktı olarak veriyi verir.
 ```
 
 # Bulanıklık İşlemleri
