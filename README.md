@@ -14,6 +14,9 @@ Cift verileri ayırır => ayristir('ayristirilacak') // { miya: değer1, tude: d
 Metni tekrarlar => tekraret('metin','tekrarmiktarı')
 Soru Sorar => alertque('soru') // Çıktı olarak verdiğimiz cevabı verir
 Inputlarda sadece harf girisine izin verir => .number // Kopyala / Yapıştır engellemez
+Id'si verilen objeyi yavasca gösterir => göster('id','göstermesüresi',1000) // Id dışındkiler mecburi değil. Gösterme süresi girilmezse 450 varsayılır. 1000 değeri gecikmedir.
+Id'si verilen objeyi yavasca gizler => gizle('id','göstermesüresi',1000) // Id dışındkiler mecburi değil. Gösterme süresi girilmezse 450 varsayılır. 1000 değeri gecikmedir.
+Id'si girilen objenin özelliklerini düzenler => attr('özellik', 'yenideger')
 ```
 
 # Bulanıklık İşlemleri
