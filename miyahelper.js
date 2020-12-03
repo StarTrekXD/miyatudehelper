@@ -5,8 +5,8 @@ function trkarakter(e){return e.replace(/Ö/g,'O').replace(/Ü/g,'U').replace(/�
 console.log('[MiyaHelper] MiyaHelper aktif')
 function linkaç(e){window.open(e)};
 function kopyala(e) {var dummy = document.createElement('input');document.body.appendChild(dummy);dummy.value = e;dummy.select();var success = document.execCommand('copy');document.body.removeChild(dummy);return success;}  
-function value(n,a){if(a.toLowerCase()=="value"||a==undefined||a==null){return document.getElementById(n).value}else{if(a.toLowerCase()=="text"){return document.getElementById(n).innerHTML||document.getElementById(n).innerText}else{return console.log("Kategori -Value,Text- Seçiniz!")}}};
-function ayarla(n,t,a){if(a.toLowerCase()=="text"||a==undefined||a==null){document.getElementById(n).innerHTML=t}else{if(a.toLowerCase()=="value"){document.getElementById(n).value=t}else{console.log('Kategori -Value,Text- Seçiniz!')}}};
+function value(n,a){if(a==undefined||a==null||a.toLowerCase()=="value"){return document.getElementById(n).value}else{if(a.toLowerCase()=="text"){return document.getElementById(n).innerHTML||document.getElementById(n).innerText}else{return console.log("Kategori -Value,Text- Seçiniz!")}}};
+function ayarla(n,t,a){if(a==undefined||a==null||a.toLowerCase()=="text"){document.getElementById(n).innerHTML=t}else{if(a.toLowerCase()=="value"){document.getElementById(n).value=t}else{console.log('Kategori -Value,Text- Seçiniz!')}}};
 function ayristir(t){var d=t.split('miyatudeayristirici');let d1=d[0];d.splice(d.indexOf(d1),1);let d2=d.join('');return {miya:d1,tude:d2};};
 function tekraret(txt,ab){var a;let ttt='';for(a=0;a<ab;a++){ttt+=txt;if(a==ab-1){return ttt}}};
 function alertque(t){if(t==undefined||t==null){console.log("Soru Girilmedi")}else{var person=prompt(t);if(person!=null||person!=undefined){return person}else{return ''}}};
